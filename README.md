@@ -14,7 +14,7 @@ The codes are structured in `PROGRAM` and several `MODULES` for functions and ot
 - Fortran 90 Compiler
 
 ## How to compile the files
-For an individual code use the prefix `gfortran`+`FileName.f90` `-o`
+For an individual code use the prefix `gfortran` `FileName.f90` `-o`
 
 ```bash
 gfortran archivo.f90 -o programa
