@@ -10,11 +10,14 @@ The codes are structured in `PROGRAM` and several `MODULES` for functions and ot
 - `src/Numerical Linear Algebra/`: Gauss elimination with partial pivoting, LU decomposition, Inverse Matrix.
 - `src/ODE/`: Methods for Ordinary Differential Equations: Euler method, Runge-Kutta Method, Finite Difference for Second Order Equation.
 
-## Requisitos
+## Requisites 
 - Fortran 90 Compiler
 
-## Cómo compilar y ejecutar
-Para compilar un archivo individual:
+## How to compile the files
+For an individual code use the prefix `gfortran`+`FileName.f90` `-o`
+
 ```bash
 gfortran archivo.f90 -o programa
 ./programa
+```
+
