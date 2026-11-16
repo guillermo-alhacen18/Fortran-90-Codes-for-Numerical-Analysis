@@ -1,15 +1,17 @@
 # Fortran 90 Codes for Numerical Analysis
 
-Repository for some codes in Fortran 90.
+Repository for some numerical methods in Fortran 90.
 
 The codes are structured in `PROGRAM` and several `MODULES` for functions and other features
-## Contenido
-- `src/root_finding/`: Métodos para encontrar raíces (bisección, Newton-Raphson).
-- `src/linear_systems/`: Solución de sistemas lineales (eliminación gaussiana, LU).
-- `src/integration/`: Integración numérica (trapecio, Simpson).
+
+
+## Content
+- `src/Root Finding/`: Newton-Raphson (for 1 unknown and 2 unknown), Bisection Method, Secant Method, Bairstow Method, Müller Method.
+- `src/Numerical Linear Algebra/`: Gauss elimination with partial pivoting, LU decomposition, Inverse Matrix.
+- `src/ODE/`: Methods for Ordinary Differential Equations: Euler method, Runge-Kutta Method, Finite Difference for Second Order Equation.
 
 ## Requisitos
-- Compilador de Fortran 90 (por ejemplo, `gfortran`).
+- Fortran 90 Compiler
 
 ## Cómo compilar y ejecutar
 Para compilar un archivo individual:
